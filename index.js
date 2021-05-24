@@ -17,7 +17,6 @@ const INVISIBLE_USER_STATUS = 'invisible';
 const { TARGET_USER_IDS } = config;
 
 client.once(READY_EVENT, () => {
-    console.log(client.user)
     client.user.setStatus(INVISIBLE_USER_STATUS);
 });
 
